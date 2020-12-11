@@ -1,0 +1,217 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key attr.name="label" attr.type="string" for="edge" id="d0"/>
+<graph edgedefault="undirected"><node id="Language"/>
+<node id="Spatial"/>
+<node id="Reasoning"/>
+<node id="Decision-Making"/>
+<node id="Categorization"/>
+<node id="Perceptual"/>
+<node id="Memory"/>
+<node id="Motor"/>
+<node id="Learning"/>
+<node id="Attention"/>
+<node id="Emotion"/>
+<node id="Lexical Gap"/>
+<node id="Word-Sense Gap"/>
+<node id="Negation Gap"/>
+<node id="Part-Of-Speech Gap"/>
+<node id="Sentiment Gap"/>
+<node id="Target Gap"/>
+<node id="Context Gap"/>
+<node id="Direction Gap"/>
+<node id="Size Gap"/>
+<node id="Numerosity Gap"/>
+<node id="Replication Gap"/>
+<node id="Cue Gap"/>
+<node id="Boundary Gap"/>
+<node id="Explanatory Gap"/>
+<node id="Update Gap"/>
+<node id="Memory Gap"/>
+<node id="Metonymy Gap"/>
+<node id="Rationality Gap"/>
+<node id="Ignorance Gap"/>
+<node id="Procedural Gap"/>
+<edge source="Language" target="Lexical Gap">
+  <data key="d0">affects</data>
+</edge>
+<edge source="Language" target="Word-Sense Gap">
+  <data key="d0">affects</data>
+</edge>
+<edge source="Language" target="Negation Gap">
+  <data key="d0">affects</data>
+</edge>
+<edge source="Language" target="Part-Of-Speech Gap">
+  <data key="d0">affects</data>
+</edge>
+<edge source="Language" target="Sentiment Gap">
+  <data key="d0">affects</data>
+</edge>
+<edge source="Language" target="Target Gap">
+  <data key="d0">affects</data>
+</edge>
+<edge source="Language" target="Metonymy Gap">
+  <data key="d0">affects</data>
+</edge>
+<edge source="Spatial" target="Context Gap">
+  <data key="d0">affects</data>
+</edge>
+<edge source="Spatial" target="Direction Gap">
+  <data key="d0">affects</data>
+</edge>
+<edge source="Spatial" target="Size Gap">
+  <data key="d0">affects</data>
+</edge>
+<edge source="Reasoning" target="Lexical Gap">
+  <data key="d0">affects</data>
+</edge>
+<edge source="Reasoning" target="Word-Sense Gap">
+  <data key="d0">affects</data>
+</edge>
+<edge source="Reasoning" target="Negation Gap">
+  <data key="d0">affects</data>
+</edge>
+<edge source="Reasoning" target="Target Gap">
+  <data key="d0">affects</data>
+</edge>
+<edge source="Reasoning" target="Numerosity Gap">
+  <data key="d0">affects</data>
+</edge>
+<edge source="Reasoning" target="Boundary Gap">
+  <data key="d0">affects</data>
+</edge>
+<edge source="Reasoning" target="Explanatory Gap">
+  <data key="d0">affects</data>
+</edge>
+<edge source="Reasoning" target="Metonymy Gap">
+  <data key="d0">affects</data>
+</edge>
+<edge source="Reasoning" target="Rationality Gap">
+  <data key="d0">affects</data>
+</edge>
+<edge source="Reasoning" target="Ignorance Gap">
+  <data key="d0">affects</data>
+</edge>
+<edge source="Decision-Making" target="Lexical Gap">
+  <data key="d0">affects</data>
+</edge>
+<edge source="Decision-Making" target="Cue Gap">
+  <data key="d0">affects</data>
+</edge>
+<edge source="Decision-Making" target="Boundary Gap">
+  <data key="d0">affects</data>
+</edge>
+<edge source="Decision-Making" target="Ignorance Gap">
+  <data key="d0">affects</data>
+</edge>
+<edge source="Categorization" target="Cue Gap">
+  <data key="d0">affects</data>
+</edge>
+<edge source="Categorization" target="Explanatory Gap">
+  <data key="d0">affects</data>
+</edge>
+<edge source="Categorization" target="Metonymy Gap">
+  <data key="d0">affects</data>
+</edge>
+<edge source="Categorization" target="Rationality Gap">
+  <data key="d0">affects</data>
+</edge>
+<edge source="Perceptual" target="Target Gap">
+  <data key="d0">affects</data>
+</edge>
+<edge source="Perceptual" target="Context Gap">
+  <data key="d0">affects</data>
+</edge>
+<edge source="Perceptual" target="Direction Gap">
+  <data key="d0">affects</data>
+</edge>
+<edge source="Perceptual" target="Size Gap">
+  <data key="d0">affects</data>
+</edge>
+<edge source="Perceptual" target="Numerosity Gap">
+  <data key="d0">affects</data>
+</edge>
+<edge source="Perceptual" target="Boundary Gap">
+  <data key="d0">affects</data>
+</edge>
+<edge source="Memory" target="Sentiment Gap">
+  <data key="d0">affects</data>
+</edge>
+<edge source="Memory" target="Context Gap">
+  <data key="d0">affects</data>
+</edge>
+<edge source="Memory" target="Replication Gap">
+  <data key="d0">affects</data>
+</edge>
+<edge source="Memory" target="Explanatory Gap">
+  <data key="d0">affects</data>
+</edge>
+<edge source="Memory" target="Update Gap">
+  <data key="d0">affects</data>
+</edge>
+<edge source="Memory" target="Memory Gap">
+  <data key="d0">affects</data>
+</edge>
+<edge source="Memory" target="Rationality Gap">
+  <data key="d0">affects</data>
+</edge>
+<edge source="Memory" target="Ignorance Gap">
+  <data key="d0">affects</data>
+</edge>
+<edge source="Memory" target="Procedural Gap">
+  <data key="d0">affects</data>
+</edge>
+<edge source="Motor" target="Replication Gap">
+  <data key="d0">affects</data>
+</edge>
+<edge source="Motor" target="Boundary Gap">
+  <data key="d0">affects</data>
+</edge>
+<edge source="Motor" target="Procedural Gap">
+  <data key="d0">affects</data>
+</edge>
+<edge source="Learning" target="Replication Gap">
+  <data key="d0">affects</data>
+</edge>
+<edge source="Learning" target="Boundary Gap">
+  <data key="d0">affects</data>
+</edge>
+<edge source="Learning" target="Explanatory Gap">
+  <data key="d0">affects</data>
+</edge>
+<edge source="Learning" target="Procedural Gap">
+  <data key="d0">affects</data>
+</edge>
+<edge source="Attention" target="Sentiment Gap">
+  <data key="d0">affects</data>
+</edge>
+<edge source="Attention" target="Context Gap">
+  <data key="d0">affects</data>
+</edge>
+<edge source="Attention" target="Direction Gap">
+  <data key="d0">affects</data>
+</edge>
+<edge source="Attention" target="Size Gap">
+  <data key="d0">affects</data>
+</edge>
+<edge source="Attention" target="Numerosity Gap">
+  <data key="d0">affects</data>
+</edge>
+<edge source="Attention" target="Cue Gap">
+  <data key="d0">affects</data>
+</edge>
+<edge source="Attention" target="Update Gap">
+  <data key="d0">affects</data>
+</edge>
+<edge source="Attention" target="Memory Gap">
+  <data key="d0">affects</data>
+</edge>
+<edge source="Attention" target="Procedural Gap">
+  <data key="d0">affects</data>
+</edge>
+<edge source="Emotion" target="Sentiment Gap">
+  <data key="d0">affects</data>
+</edge>
+<edge source="Emotion" target="Rationality Gap">
+  <data key="d0">affects</data>
+</edge>
+</graph></graphml>

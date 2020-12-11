@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key attr.name="label" attr.type="string" for="edge" id="d0"/>
+<graph edgedefault="undirected"><node id="Language"/>
+<node id="Spatial"/>
+<node id="Reasoning"/>
+<node id="Decision-Making"/>
+<node id="Categorization"/>
+<node id="Perceptual"/>
+<node id="Memory"/>
+<node id="Motor"/>
+<node id="Learning"/>
+<node id="Attention"/>
+<node id="Emotion"/>
+<node id="Activity Gap"/>
+<node id="Attribute Gap"/>
+<node id="Direction Gap"/>
+<node id="Entity Resolution Gap"/>
+<node id="Location Gap"/>
+<node id="Material Gap"/>
+<node id="Reasoning Gap"/>
+<node id="Sentiment Gap"/>
+<node id="Size Gap"/>
+<node id="State Gap"/>
+<node id="Numerosity Gap"/>
+<edge source="Language" target="Sentiment Gap">
+  <data key="d0">affects</data>
+</edge>
+<edge source="Spatial" target="Direction Gap">
+  <data key="d0">affects</data>
+</edge>
+<edge source="Spatial" target="Location Gap">
+  <data key="d0">affects</data>
+</edge>
+<edge source="Spatial" target="Size Gap">
+  <data key="d0">affects</data>
+</edge>
+<edge source="Reasoning" target="Activity Gap">
+  <data key="d0">affects</data>
+</edge>
+<edge source="Reasoning" target="Entity Resolution Gap">
+  <data key="d0">affects</data>
+</edge>
+<edge source="Reasoning" target="Reasoning Gap">
+  <data key="d0">affects</data>
+</edge>
+<edge source="Reasoning" target="State Gap">
+  <data key="d0">affects</data>
+</edge>
+<edge source="Reasoning" target="Numerosity Gap">
+  <data key="d0">affects</data>
+</edge>
+<edge source="Categorization" target="Activity Gap">
+  <data key="d0">affects</data>
+</edge>
+<edge source="Categorization" target="Attribute Gap">
+  <data key="d0">affects</data>
+</edge>
+<edge source="Categorization" target="Material Gap">
+  <data key="d0">affects</data>
+</edge>
+<edge source="Categorization" target="State Gap">
+  <data key="d0">affects</data>
+</edge>
+<edge source="Perceptual" target="Activity Gap">
+  <data key="d0">affects</data>
+</edge>
+<edge source="Perceptual" target="Attribute Gap">
+  <data key="d0">affects</data>
+</edge>
+<edge source="Perceptual" target="Direction Gap">
+  <data key="d0">affects</data>
+</edge>
+<edge source="Perceptual" target="Location Gap">
+  <data key="d0">affects</data>
+</edge>
+<edge source="Perceptual" target="Material Gap">
+  <data key="d0">affects</data>
+</edge>
+<edge source="Perceptual" target="Size Gap">
+  <data key="d0">affects</data>
+</edge>
+<edge source="Perceptual" target="State Gap">
+  <data key="d0">affects</data>
+</edge>
+<edge source="Perceptual" target="Numerosity Gap">
+  <data key="d0">affects</data>
+</edge>
+<edge source="Memory" target="Reasoning Gap">
+  <data key="d0">affects</data>
+</edge>
+<edge source="Memory" target="Sentiment Gap">
+  <data key="d0">affects</data>
+</edge>
+<edge source="Learning" target="Reasoning Gap">
+  <data key="d0">affects</data>
+</edge>
+<edge source="Attention" target="Direction Gap">
+  <data key="d0">affects</data>
+</edge>
+<edge source="Attention" target="Location Gap">
+  <data key="d0">affects</data>
+</edge>
+<edge source="Attention" target="Sentiment Gap">
+  <data key="d0">affects</data>
+</edge>
+<edge source="Attention" target="Size Gap">
+  <data key="d0">affects</data>
+</edge>
+<edge source="Attention" target="Numerosity Gap">
+  <data key="d0">affects</data>
+</edge>
+<edge source="Emotion" target="Sentiment Gap">
+  <data key="d0">affects</data>
+</edge>
+</graph></graphml>
